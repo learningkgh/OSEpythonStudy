@@ -14,7 +14,7 @@ def solution(new_id):
             new_id = new_id.rstrip('.')
     else: pass
     
-    if len(new_id) < 3:
+    if len(new_id) < 3: # 7단계
         while len(new_id) <= 3:
             for i in range(2):
                 new_id += new_id[-1] * i
